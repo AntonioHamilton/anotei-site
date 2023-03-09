@@ -13,20 +13,24 @@ type Link = {
 
 const links = [
   {
-    label: `Features`,
-    href: `/`,
+    label: `Pitch`,
+    href: `#pitch`,
   },
   {
-    label: `Testimonials`,
-    href: `/`,
+    label: `Objetivos`,
+    href: `#goals`,
   },
   {
-    label: `Pricing`,
-    href: `/`,
+    label: `Funcionalidades`,
+    href: `#features`,
   },
   {
-    label: `Blog`,
-    href: `/`,
+    label: `Diferenciais`,
+    href: `#our-difference`,
+  },
+  {
+    label: `Equipe`,
+    href: `#team`,
   },
 ];
 

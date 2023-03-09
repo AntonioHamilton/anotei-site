@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Page>
       <NextSeo
-        title="STARTD - Template"
+        title="Anotei App"
         description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
       />
       <Header />

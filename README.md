@@ -54,9 +54,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## WHAT TO DO
 
-- [ ] Colocar a foto de perfil de todos os devs
-- [ ] Ajustar responsividade da equipe
+- [x] Colocar a foto de perfil de todos os devs
+- [x] Ajustar responsividade da equipe
 - [ ] Adicionar os contatos
 - [ ] Adicionar fotos e descrição das funcionalidades
 - [ ] Fazer o deploy
-- [ ] Adicionar favicon
+- [x] Adicionar favicon
