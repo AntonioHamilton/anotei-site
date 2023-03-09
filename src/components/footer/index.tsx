@@ -18,13 +18,23 @@ const Footer = () => {
           <img className={tw(`h-12 w-12 mb-4`)} src="logo.svg" alt="logo" width={48} height={48} />
           <p className={tw(`text-4xl text-indigo-500 font-bold`)}>Anotei App</p>
           <div className={tw(`mt-8 flex align-center justify-between`)}>
-            <a href="https://www.instagram.com/anoteiapp/" className={tw(anchorStyle)}>
+            <a
+              href="https://www.instagram.com/anoteiapp/"
+              className={tw(anchorStyle)}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <IconInstagram />
             </a>
-            <a href="https://www.linkedin.com/company/anotei" className={tw(anchorStyle)}>
+            <a
+              href="https://www.linkedin.com/company/anotei"
+              className={tw(anchorStyle)}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <IconLinkedin />
             </a>
-            <a href="mailto:anoteipop@gmail.com" className={tw(anchorStyle)}>
+            <a href="mailto:anoteipop@gmail.com" className={tw(anchorStyle)} target="_blank" rel="noreferrer noopener">
               <IconGmail />
             </a>
           </div>
