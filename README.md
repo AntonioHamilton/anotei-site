@@ -58,3 +58,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [ ] Ajustar responsividade da equipe
 - [ ] Adicionar os contatos
 - [ ] Adicionar fotos e descrição das funcionalidades
+- [ ] Fazer o deploy
+- [ ] Adicionar favicon
