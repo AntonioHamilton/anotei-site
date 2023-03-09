@@ -30,12 +30,13 @@
   "dependencies": {
     "@fontsource/inter": "4.2.1",
     "@svgr/webpack": "5.5.0",
-    "next": "10.0.7",
+    "eslint-config-next": "13.2.3",
+    "next": "13.2.3",
     "next-seo": "4.20.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-particles-js": "3.4.1",
-    "twind": "0.15.4"
+    "twind": "0.16.19"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
@@ -59,7 +60,7 @@
     "husky": "5.0.9",
     "lint-staged": "10.5.4",
     "prettier": "2.2.1",
-    "typescript": "4.1.5"
+    "typescript": "4.9.5"
   },
   "config": {
     "commitizen": {

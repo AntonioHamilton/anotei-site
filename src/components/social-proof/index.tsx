@@ -1,6 +1,4 @@
 import { tw } from 'twind';
-import { useState } from 'react';
-import Quote from '@/constants/svg/quote.svg';
 
 const team = [
   {
@@ -50,7 +48,7 @@ const SocialProof = () => (
       </div>
       <div className={tw(`flex flex-row justify-center items-center flex-wrap mx-auto my-8 gap-x-10`)}>
         {team.map((person) => (
-          <div className={tw(`mx-auto`)}>
+          <div key={person.name} className={tw(`mx-auto`)}>
             <div className={tw(`flex items-center pb-12`)}>
               <div className={tw(`h-12 w-12`)}>
                 <img
