@@ -51,3 +51,10 @@ Consider contributing to the original TypeScript Starter, which you can find [he
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+
+## WHAT TO DO
+
+- [ ] Colocar a foto de perfil de todos os devs
+- [ ] Ajustar responsividade da equipe
+- [ ] Adicionar os contatos
+- [ ] Adicionar fotos e descrição das funcionalidades
