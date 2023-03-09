@@ -45,21 +45,24 @@ const ParticleBg = () => (
 const articles = [
   {
     title: `Anotar conteúdos`,
-    image: `/images/case-1.webp`,
+    image: `/images/feature-1.jpg`,
     alt: `Proident pariatur est.`,
-    description: `teste`,
+    // eslint-disable-next-line max-len
+    description: `Mantenha-se organizado tendo um local para se lembrar dos seus conteúdos que você pretende consumir, está acompanhando ou concluiu.`,
   },
   {
     title: `Avaliar anotações`,
-    image: `/images/case-2.webp`,
+    image: `/images/feature-2.jpg`,
     alt: `Proident pariatur est.`,
-    description: `teste`,
+    // eslint-disable-next-line max-len
+    description: `Escreva avaliações e atribua notas ao seus conteúdos anotados e sempre tenha na palma da mão o que você achou de cada conteúdo.`,
   },
   {
     title: `Faça amigos`,
-    image: `/images/case-3.webp`,
+    image: `/images/feature-3.jpg`,
     alt: `Proident pariatur est.`,
-    description: `teste`,
+    // eslint-disable-next-line max-len
+    description: `Encontre pessoas, faça amigos e visite o seu perfil para visualizar quantos conteúdos eles tem anotados e seus favoritos.`,
   },
 ];
 
@@ -81,7 +84,7 @@ const CasesSection = () => (
                       xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0 cursor-pointer hover:scale-105`,
                 )}
               >
-                <div className={tw(`h-64 z-20`)}>
+                <div className={tw(`h-5/6 z-20`)}>
                   <img
                     src={article.image}
                     alt={article.alt}
