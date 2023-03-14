@@ -60,9 +60,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [x] Adicionar fotos e descrição das funcionalidades
 - [x] Fazer o deploy
 - [x] Adicionar favicon
-- [ ] Barra de navegação fixa
+- [x] Barra de navegação fixa
+- [x] Ajustar fundo escuro na seção de funcionalidades
+- [x] Revisar o uso da logo e textos
+- [x] Melhorar o layout da seção de equipe
 - [ ] Ajuste gramatical dos textos
-- [ ] Ajustar fundo escuro na seção de funcionalidades
 - [ ] Ajuste nos textos dos diferenciais , usar uma comunicação "positiva"
-- [ ] Melhorar o layout da seção de equipe
-- [ ] Revisar o uso da logo e textos

@@ -9,12 +9,22 @@ const logoStyle = css`
   filter: grayscale(1);
 `;
 
+const Title = css`
+  background: linear-gradient(180deg, #2a0940 45%, rgba(111, 68, 134, 0.767672) 90%, rgba(206, 149, 231, 0.45) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+`;
+
 const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`flex flex-row max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
       <div className={tw(`basis-1/2 justify-center items-center flex flex-col `)}>
         <h1
-          className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}
+          className={tw(
+            `font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`,
+            Title,
+          )}
         >
           Anotei
         </h1>

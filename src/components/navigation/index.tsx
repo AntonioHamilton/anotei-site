@@ -1,5 +1,6 @@
 import { tw } from 'twind';
 import { useState } from 'react';
+import { css } from 'twind/css';
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -10,6 +11,12 @@ type Link = {
   label: string;
   href: string;
 };
+
+const fixedBar = css`
+  position: sticky;
+  top: 0;
+  z-index: 999;
+`;
 
 const links = [
   {
@@ -90,12 +97,12 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white`)}>
+    <nav className={tw(`bg-white`, fixedBar)}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between lg:justify-center md:justify-center h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
-              <img className={tw(`h-12 w-12`)} src="/images/anotei-logo.svg" alt="logo" width={48} height={48} />
+              <img className={tw(`h-12 w-12`)} src="/images/logo-dark.svg" alt="logo" width={48} height={48} />
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>

@@ -1,5 +1,6 @@
 import { tw } from 'twind';
 import Particles from 'react-particles-js';
+import { css } from 'twind/css';
 
 const ParticleBg = () => (
   <Particles
@@ -66,14 +67,22 @@ const articles = [
   },
 ];
 
+const Title = css`
+  background: linear-gradient(180deg, #2a0940 45%, rgba(111, 68, 134, 0.767672) 90%, rgba(206, 149, 231, 0.45) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+`;
+
+const imageCSS = css`
+  height: 360px;
+`;
+
 const CasesSection = () => (
   <section id="features">
-    <div className={tw(`w-full min-h-screen bg-gray-900 relative`)}>
-      <div className={tw(`absolute left-0 top-0 h-screen w-full overflow-hidden`)}>
-        <ParticleBg />
-      </div>
+    <div className={tw(`w-full min-h-screen relative`)}>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
-        <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>Funcionalidades</h1>
+        <h1 className={tw(`text-4xl lg:text-7xl font-bold text-center`, Title)}>Funcionalidades</h1>
         <div className={tw(`mx-auto pt-24`)}>
           <div className={tw(`w-full flex flex-wrap justify-around`)}>
             {articles.map((article) => (
@@ -88,9 +97,7 @@ const CasesSection = () => (
                   <img
                     src={article.image}
                     alt={article.alt}
-                    className={tw(`h-full w-full object-cover overflow-hidden rounded`)}
-                    width={400}
-                    height={300}
+                    className={tw(`h-full w-full object-cover overflow-hidden rounded`, imageCSS)}
                   />
                 </div>
                 <div className={tw(`p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative`)}>

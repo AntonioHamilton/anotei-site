@@ -1,5 +1,6 @@
 import { tw } from 'twind';
 import FeatureSvg from '@/constants/svg/features.svg';
+import { css } from 'twind/css';
 
 const listItems = [
   {
@@ -16,11 +17,22 @@ const listItems = [
   },
 ];
 
+const Title = css`
+  background: linear-gradient(180deg, #2a0940 45%, rgba(111, 68, 134, 0.767672) 90%, rgba(206, 149, 231, 0.45) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+`;
+
+const RoundedCSS = css`
+  background: rgb(218, 163, 255);
+`;
+
 const ListSection = () => (
   <section id="goals" className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
-        <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Objetivos</p>
+        <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`, Title)}>Objetivos</p>
       </div>
       <div className={tw(`flex flex-wrap -mx-8 items-center`)}>
         <div className={tw(`w-full lg:w-1/2 px-8`)}>
@@ -29,9 +41,12 @@ const ListSection = () => (
               <li className={tw(`flex -mx-4`)} key={item.title}>
                 <div className={tw(`px-4`)}>
                   <span
-                    className={tw(`flex w-16 h-16 mx-auto items-center
+                    className={tw(
+                      `flex w-16 h-16 mx-auto items-center
                       justify-center text-2xl font-bold rounded-full
-                      bg-blue-50 text-blue-500`)}
+                      text-black-500`,
+                      RoundedCSS,
+                    )}
                   >
                     {index + 1}
                   </span>
