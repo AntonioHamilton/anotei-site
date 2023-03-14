@@ -56,7 +56,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - [x] Colocar a foto de perfil de todos os devs
 - [x] Ajustar responsividade da equipe
-- [ ] Adicionar os contatos
-- [ ] Adicionar fotos e descrição das funcionalidades
-- [ ] Fazer o deploy
+- [x] Adicionar os contatos
+- [x] Adicionar fotos e descrição das funcionalidades
+- [x] Fazer o deploy
 - [x] Adicionar favicon
+- [ ] Barra de navegação fixa
+- [ ] Ajuste gramatical dos textos
+- [ ] Ajustar fundo escuro na seção de funcionalidades
+- [ ] Ajuste nos textos dos diferenciais , usar uma comunicação "positiva"
+- [ ] Melhorar o layout da seção de equipe
+- [ ] Revisar o uso da logo e textos
