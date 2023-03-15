@@ -4,16 +4,16 @@ import { css } from 'twind/css';
 
 const listItems = [
   {
-    title: `Gratuito`,
-    description: `As pessoas poderão usar o Anotei de forma gratuita para gerenciar seus conteúdos da cultura pop`,
+    title: `Maior do país`,
+    description: `Vamos tornar o Anotei o aplicativo de gerenciamento de conteúdo de cultura pop mais utilizado em todo o país, oferecendo aos usuários uma maneira fácil e gratuita de organizar seus programas de TV, filmes, músicas e livros favoritos.`,
   },
   {
-    title: `Conecte-se`,
-    description: `Faça amigos e veja quais seus conteúdos preferidos`,
+    title: `Expandir os métodos de compartilhamento`,
+    description: `Queremos expandir as opções de compartilhamento de conteúdo do Anotei para permitir que os usuários vejam e interajam com os conteúdos favoritos de seus amigos.`,
   },
   {
-    title: `Avalie seus conteúdos`,
-    description: `Crie comentários e dê notas para os conteúdos, assim você saberá o que gostou`,
+    title: `Integrar o Anotei com outras plataformas`,
+    description: `Iremos integrar o Anotei com mais plataformas de streaming de vídeo para fornecer uma experiência de gerenciamento de conteúdo mais abrangente aos usuários.`,
   },
 ];
 

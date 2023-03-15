@@ -1,47 +1,5 @@
 import { tw } from 'twind';
-import Particles from 'react-particles-js';
 import { css } from 'twind/css';
-
-const ParticleBg = () => (
-  <Particles
-    params={{
-      particles: {
-        number: {
-          value: 400,
-          density: {
-            enable: true,
-            value_area: 3000,
-          },
-        },
-        line_linked: {
-          enable: false,
-        },
-        move: {
-          direction: `right`,
-          speed: 0.3,
-        },
-        size: {
-          value: 1,
-        },
-        opacity: {
-          anim: {
-            enable: true,
-            speed: 0.5,
-            opacity_min: 0.1,
-          },
-        },
-      },
-      interactivity: {
-        events: {
-          onclick: {
-            enable: false,
-          },
-        },
-      },
-      retina_detect: true,
-    }}
-  />
-);
 
 const articles = [
   {
@@ -49,21 +7,21 @@ const articles = [
     image: `/images/feature-1.jpg`,
     alt: `Proident pariatur est.`,
     // eslint-disable-next-line max-len
-    description: `Mantenha-se organizado tendo um local para se lembrar dos seus conteúdos que você pretende consumir, está acompanhando ou concluiu.`,
+    description: `Simplifique seu gerenciamento de conteúdo com o Anotei, o aplicativo gratuito que ajuda os usuários a acompanhar e organizar os programas de TV, filmes, músicas e livros que eles pretendem consumir, estão acompanhando ou já concluíram.`,
   },
   {
     title: `Avaliar anotações`,
     image: `/images/feature-2.jpg`,
     alt: `Proident pariatur est.`,
     // eslint-disable-next-line max-len
-    description: `Escreva avaliações e atribua notas ao seus conteúdos anotados e sempre tenha na palma da mão o que você achou de cada conteúdo.`,
+    description: `Com o Anotei, você pode facilmente acompanhar suas opiniões sobre seus programas de TV, filmes, músicas e livros favoritos, escrevendo avaliações e atribuindo notas. Nunca se esqueça do que você pensou sobre um conteúdo novamente!`,
   },
   {
     title: `Faça amigos`,
     image: `/images/feature-3.jpg`,
     alt: `Proident pariatur est.`,
     // eslint-disable-next-line max-len
-    description: `Encontre pessoas, faça amigos e visite o seu perfil para visualizar quantos conteúdos eles tem anotados e seus favoritos.`,
+    description: `Faça conexões reais com pessoas que compartilham sua paixão pela cultura pop usando o Anotei. Visite perfis para descobrir quais conteúdos eles têm anotados e quais são seus favoritos, explore os conteúdos com base em suas recomendações.`,
   },
 ];
 

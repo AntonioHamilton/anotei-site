@@ -27,7 +27,8 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Gratuito</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Não é necessário pagar nada para usar nosso aplicativo, anote quantos conteúdos quiser sem pagar um real
+              Nós sabemos que dinheiro é importante, por isso decidimos que nosso aplicativo seria totalmente gratuito!
+              Anote quantos conteúdos quiser, sem qualquer custo
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
@@ -36,7 +37,8 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Tudo em um lugar</div>
             </div>
             <p className={tw(`leading-loose text-gray-500 `)}>
-              Não será mais necessário usar vários aplicativos para gerenciar seus conteúdos, use apenas o Anotei
+              Gerenciar seus conteúdos nunca foi tão fácil! Esqueça a necessidade de usar vários aplicativos, com o
+              Anotei, você tem tudo o que precisa em uma única plataforma.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
@@ -45,7 +47,8 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Design intuitivo</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Inspirado em aplicativos conhecidos de streaming nós temos um design atual e familiar para nossos usuários
+              Nosso design foi cuidadosamente desenvolvido com inspiração nos aplicativos de streaming mais famosos,
+              para que você possa se sentir à vontade e aproveitar ao máximo nossa plataforma.
             </p>
           </div>
         </div>
