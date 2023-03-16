@@ -6,21 +6,18 @@ const articles = [
     title: `Anotar conteúdos`,
     image: `/images/feature-1.jpg`,
     alt: `Proident pariatur est.`,
-    // eslint-disable-next-line max-len
-    description: `Simplifique seu gerenciamento de conteúdo com o Anotei, o aplicativo gratuito que ajuda os usuários a acompanhar e organizar os programas de TV, filmes, músicas e livros que eles pretendem consumir, estão acompanhando ou já concluíram.`,
+    description: `Simplifique seu gerenciamento de conteúdo com o Anotei, o aplicativo gratuito que ajuda os usuários a acompanhar e organizar os programas de TV, filmes, animes e livros que eles pretendem consumir, estão acompanhando ou já concluíram.`,
   },
   {
     title: `Avaliar anotações`,
     image: `/images/feature-2.jpg`,
     alt: `Proident pariatur est.`,
-    // eslint-disable-next-line max-len
-    description: `Com o Anotei, você pode facilmente acompanhar suas opiniões sobre seus programas de TV, filmes, músicas e livros favoritos, escrevendo avaliações e atribuindo notas. Nunca se esqueça do que você pensou sobre um conteúdo novamente!`,
+    description: `Com o Anotei, você pode facilmente acompanhar suas opiniões sobre seus programas de TV, filmes, animes e livros favoritos, escrevendo avaliações e atribuindo notas. Nunca se esqueça do que você pensou sobre um conteúdo novamente!`,
   },
   {
     title: `Faça amigos`,
     image: `/images/feature-3.jpg`,
     alt: `Proident pariatur est.`,
-    // eslint-disable-next-line max-len
     description: `Faça conexões reais com pessoas que compartilham sua paixão pela cultura pop usando o Anotei. Visite perfis para descobrir quais conteúdos eles têm anotados e quais são seus favoritos, explore os conteúdos com base em suas recomendações.`,
   },
 ];
@@ -36,7 +33,7 @@ const imageCSS = css`
   height: 360px;
 `;
 
-const CasesSection = () => (
+const Features = () => (
   <section id="features">
     <div className={tw(`w-full min-h-screen relative`)}>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
@@ -71,4 +68,4 @@ const CasesSection = () => (
   </section>
 );
 
-export default CasesSection;
+export default Features;

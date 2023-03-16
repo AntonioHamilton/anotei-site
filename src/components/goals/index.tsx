@@ -5,7 +5,7 @@ import { css } from 'twind/css';
 const listItems = [
   {
     title: `Maior do país`,
-    description: `Vamos tornar o Anotei o aplicativo de gerenciamento de conteúdo de cultura pop mais utilizado em todo o país, oferecendo aos usuários uma maneira fácil e gratuita de organizar seus programas de TV, filmes, músicas e livros favoritos.`,
+    description: `Vamos tornar o Anotei o aplicativo de gerenciamento de conteúdo de cultura pop mais utilizado em todo o país, oferecendo aos usuários uma maneira fácil e gratuita de organizar seus programas de TV, filmes, animes e livros favoritos.`,
   },
   {
     title: `Expandir os métodos de compartilhamento`,
@@ -28,11 +28,13 @@ const RoundedCSS = css`
   background: rgb(218, 163, 255);
 `;
 
-const ListSection = () => (
+const Goals = () => (
   <section id="goals" className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
-        <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`, Title)}>Objetivos</p>
+        <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`, Title)}>
+          Objetivos Futuros
+        </p>
       </div>
       <div className={tw(`flex flex-wrap -mx-8 items-center`)}>
         <div className={tw(`w-full lg:w-1/2 px-8`)}>
@@ -69,4 +71,4 @@ const ListSection = () => (
   </section>
 );
 
-export default ListSection;
+export default Goals;

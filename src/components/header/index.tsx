@@ -31,7 +31,7 @@ const Header = () => (
         <div className={tw(`max-w-xl mx-auto`)}>
           <p className={tw(`mb-20 mt-4 text-gray-500 text-center text-xl lg:text-2xl`)}>
             Somos um aplicativo gratuito de gerenciamento de conteúdo da cultura pop que ajuda os usuários a organizar e
-            acompanhar seus programas de TV, filmes, músicas e livros favoritos em um só lugar.
+            acompanhar seus programas de TV, filmes, animes e livros favoritos em um só lugar.
           </p>
         </div>
       </div>

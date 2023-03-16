@@ -2,10 +2,10 @@ import { NextSeo } from 'next-seo';
 import Page from '@/components/page';
 import Header from '@/components/header';
 import VideoSection from '@/components/video-section';
-import ListSection from '@/components/list-section';
-import FeatureSection from '@/components/feature-section';
-import CasesSection from '@/components/cases-section';
-import SocialProof from '@/components/social-proof';
+import GoalsSection from '@/components/goals';
+import DifferencesSection from '@/components/differences';
+import FeaturesSection from '@/components/features';
+import TeamSection from '@/components/team';
 import Footer from '@/components/footer';
 
 export default function Home() {
@@ -18,10 +18,10 @@ export default function Home() {
       <Header />
       <main>
         <VideoSection />
-        <ListSection />
-        <CasesSection />
-        <FeatureSection />
-        <SocialProof />
+        <GoalsSection />
+        <FeaturesSection />
+        <DifferencesSection />
+        <TeamSection />
       </main>
       <Footer />
     </Page>
